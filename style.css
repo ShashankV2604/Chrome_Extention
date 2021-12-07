@@ -1,42 +1,67 @@
 body {
   margin: 0;
+  background-image: url(https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100);
   padding: 30px;
   min-width: 400px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 input {
   box-sizing: border-box;
+  color: white;
   padding: 10px;
   width: 100%;
   border-radius: 5px;
   border: 2px solid rgb(235, 104, 28);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(138, 127, 127, 0.25);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 #input-btn {
-  border-radius: 4px;
-  background-color: rgb(235, 104, 28);
-  color: whitesmoke;
-  margin: 10px;
+  color: rgb(235, 104, 28);
+  margin-top: 10px;
   font-size: 15px;
   padding: 5px;
-  border: none;
   font-weight: bold;
+  border: 2px solid rgb(235, 104, 28);
+
+  background: rgba(138, 127, 127, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
 }
 #input-btn:hover,
 #del-el:hover,
 #tab-btn:hover {
-  background-color: rgb(93, 176, 209);
   position: relative;
-  transition: s;
+  transition: 1s;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 ul {
   list-style: none;
   padding-left: 0%;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 li {
   margin: 6px;
 }
 li a {
-  color: green;
+  color: whitesmoke;
 }
 #del-el {
   border-radius: 4px;
@@ -47,14 +72,23 @@ li a {
   padding: 4px;
   border: 2px solid rgb(235, 104, 28);
   font-weight: bold;
+  background: rgba(138, 127, 127, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
 }
 #tab-btn {
-  border-radius: 4px;
-  background-color: rgb(235, 104, 28);
-  color: whitesmoke;
+  color: rgb(235, 104, 28);
   margin-top: 10px;
   font-size: 15px;
   padding: 5px;
   font-weight: bold;
-  border: none;
+  border: 2px solid rgb(235, 104, 28);
+
+  background: rgba(138, 127, 127, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
 }
